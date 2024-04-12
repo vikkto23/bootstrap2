@@ -1,0 +1,147 @@
+.navi{
+    display: flex;
+    background-color: #0060AA;
+    color: white;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 30px 0 0;
+
+}
+.cnm{
+    font-size: 40px;
+    padding-top: 2px;
+}
+.unn{
+    display: flex;
+    font-weight: 700;
+    list-style: none;
+    color: white;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.unn a{
+    text-decoration:wavy;
+    color: white;
+}
+
+.container-fluid{
+    margin: -24px 0 0 0;
+background-color: lightgray;
+height: 600px;
+}
+.container-fluid h2{
+    padding: 20px 0 0 0;
+    text-shadow: grey 2px 2px 1px;
+}
+.container-fluid h5{
+    text-align: center;
+    text-shadow: grey 1px 1px 1px;
+}
+.img1{
+    height: 250px;
+}
+.col{
+    margin: 50px 0 0 0;
+    height: 400px;  
+    border-radius: 8px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.img2{
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    padding-top: 5px;
+    
+}
+
+footer img{
+    height: 40px;
+    width: 130px;
+
+}
+
+@media screen and (max-width: 320px) {
+    .navi{
+        display: inline-flex;
+        background-color: #0060AA;
+        color: white;
+        height: 40px;
+        justify-content: space-between;   
+    }
+    .cnm{
+        font-size: 21px;
+        padding-top: 7px;
+    }
+    .unn{
+        display: inline-flex;
+        font-weight: 700;
+        list-style: none;
+        color: white;
+        gap: 5px;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .unn a{
+        text-decoration:wavy;
+        color: white;
+    }
+
+    .container-fluid{
+    margin: -24px 0 0 0;
+background-color: lightgray;
+height: 600px;
+}
+
+.container-fluid h2{
+    font-size: 20px;
+    padding: 20px 0 0 0;
+    text-shadow: grey 2px 2px 1px;
+}
+.container-fluid h5{
+    font-size: 10px;
+    text-align: center;
+    text-shadow: grey 1px 1px 1px;
+}
+.img1{
+    height: 80px;
+}
+.col{
+    margin: 20px 0 0 0;
+    height: 200px;
+    width: 160px;  
+    border-radius: 8px;
+}  
+.img2{
+    height: 70px;
+}
+.col h5{
+    font-size: 10px;
+}
+.col p{
+    font-size: 7px;
+}
+.col a{
+    font-size: 7px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    padding-top: 5px;
+    background-color:bisque;
+}
+
+footer img{
+    height: 20px;
+    width: 60px;
+}
+
+}

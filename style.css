@@ -1,0 +1,132 @@
+.navi{
+    display: flex;
+    background-color: #0060AA;
+    color: white;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 30px 0 0;
+
+}
+.cnm{
+    font-size: 40px;
+    padding-top: 2px;
+}
+.unn{
+    display: flex;
+    font-weight: 700;
+    list-style: none;
+    color: white;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.unn a{
+    text-decoration:wavy;
+    color: white;
+}
+.MNL{
+    background-image: url(images/bc-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 40px;
+}
+.MNL h1{
+    font-size: 85px;
+    font-weight: 600;
+    text-shadow: gray 3px 2px 1px;
+}
+button{
+    margin-top: 20px;
+    color: black;
+    border-radius: 4px;
+    height: 50px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 17px;
+}
+button a{
+    text-decoration: wavy;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    padding-top: 5px;
+    
+}
+
+footer img{
+    height: 40px;
+    width: 130px;
+
+}
+
+@media screen and (max-width: 320px) {
+    .navi{
+        display: inline-flex;
+        background-color: #0060AA;
+        color: white;
+        height: 40px;
+        justify-content: space-between;   
+    }
+    .cnm{
+        font-size: 21px;
+        padding-top: 7px;
+    }
+    .unn{
+        display: inline-flex;
+        font-weight: 700;
+        list-style: none;
+        color: white;
+        gap: 5px;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .unn a{
+        text-decoration:wavy;
+        color: white;
+    } 
+    .MNL{
+        background-image: url(images/bc-img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        color: white;
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+    .MNL h1{
+        font-size: 35px;
+        font-weight: 600;
+        text-shadow: gray 3px 2px 1px; 
+    }
+    button{
+        margin-top: 20px;
+        color: black;
+        border-radius: 6px;
+        border: none;
+        height: 40px;
+        width: 120px;
+        font-weight: 700;
+        font-size: 15px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    padding-top: 5px;
+    background-color:bisque;
+}
+
+footer img{
+    height: 20px;
+    width: 60px;
+}
+}

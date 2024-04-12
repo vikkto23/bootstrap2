@@ -1,0 +1,118 @@
+.navi{
+    display: flex;
+    background-color: #0060AA;
+    color: white;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 30px 0 0;
+
+}
+.cnm{
+    font-size: 40px;
+    padding-top: 2px;
+}
+.unn{
+    display: flex;
+    font-weight: 700;
+    list-style: none;
+    color: white;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.unn a{
+    text-decoration:wavy;
+    color: white;
+}
+
+.container-fluid{
+    height: 450px;
+    background-color: lightgrey;
+    padding: 50px 0 0 0;
+}
+
+table{
+    font-size: 15px;
+}
+table th{
+    justify-content: space-around;
+    padding-left: 10px;
+    border-bottom: solid 2px;
+    width: 300px;
+}
+table td{
+    justify-content: space-around;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    padding-top: 5px;
+    
+}
+
+footer img{
+    height: 40px;
+    width: 130px;
+
+}
+
+@media screen and (max-width: 320px) {
+    .navi{
+        display: inline-flex;
+        background-color: #0060AA;
+        color: white;
+        height: 40px;
+        justify-content: space-between;   
+    }
+    .cnm{
+        font-size: 21px;
+        padding-top: 7px;
+    }
+    .unn{
+        display: inline-flex;
+        font-weight: 700;
+        list-style: none;
+        color: white;
+        gap: 5px;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .unn a{
+        text-decoration:wavy;
+        color: white;
+    }
+
+    .container-fluid{
+        height: 450px;
+        background-color: lightgrey;
+        padding: 20px 0 0 0;
+    }
+    table th{
+        justify-content: space-evenly;
+        font-size: 20px;
+        display: inline-table;
+    }
+    table td{
+        font-size: 20px;
+        justify-content: space-evenly;
+        display: inline-table;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        height: 35px;
+        padding-top: 5px;
+        background-color:bisque;
+    }
+    
+    footer img{
+        height: 20px;
+        width: 60px;
+    }
+}
